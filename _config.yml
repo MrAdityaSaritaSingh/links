@@ -1,0 +1,57 @@
+# ----------------------------------------------------------------------------- #
+# Welcome to your LinkMap configuration file.
+#
+# To personalize your page, simply edit the settings below and commit your
+# changes. For more details, please see the README.md file.
+# ----------------------------------------------------------------------------- #
+
+# -- Main Content --
+# These settings control the text and images that appear on your page.
+
+title: Your Name | Link Hub
+author_name: Your Name
+description: A short bio or tagline about you.
+profile_picture_url: "/assets/images/profile.jpg"
+
+# -- Appearance --
+# These settings control the look and feel of your page.
+
+skin: "default" # Options: default, dark, mint, ocean, or your own custom skin.
+button_style: "filled" # Options: filled, outline, hard-shadow
+background_image: "" # Optional: Add a URL or local path to an image.
+
+# -- Links --
+# These are the main buttons that will appear on your page.
+# To add a new link, just copy the format.
+main_links:
+  - title: My Website
+    url: https://example.com
+  - title: Project Showcase
+    url: https://github.com/your-username
+  - title: Contact Me
+    url: mailto:email@example.com
+
+# -- Social Icons --
+# These icons will appear under your tagline.
+# Find more icon names at: https://fontawesome.com/v6/search?o=r&m=free&f=brands
+social_links:
+  - icon: github
+    url: https://github.com/your-username
+  - icon: twitter
+    url: https://twitter.com/your-username
+  - icon: linkedin
+    url: https://linkedin.com/in/your-username
+
+# -- Analytics --
+# To enable analytics, set the 'provider' and fill in your ID or token.
+analytics:
+  provider: false # Options: false, "google", "mixpanel", "both"
+  providers:
+    google:
+      tracking_id: "" # e.g., G-XXXXXXXXXX
+    mixpanel:
+      token: ""       # e.g., "YOUR_MIXPANEL_TOKEN"
+
+# Required for GitHub Pages. Do not change.
+plugins:
+  - jekyll-seo-tag
