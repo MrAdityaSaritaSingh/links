@@ -8,10 +8,10 @@
 # -- Main Content --
 # These settings control the text and images that appear on your page.
 
-title: Your Name | Link Hub
-author_name: Your Name
-description: A short bio or tagline about you.
-profile_picture_url: "/assets/images/profile.jpg"
+title: Aditya S. Rathore | Link Hub
+author_name: Aditya S. Rathore
+description: "Product Manager | Software Engineer. Builds 0-1 products with user-centric approach, was early engineer @Startup."
+profile_picture_url: "https://ugc.production.linktr.ee/7ae4f5ff-647d-4554-8c26-dec2bde7db25_profile-pic-2.png"
 
 # -- Appearance --
 # These settings control the look and feel of your page.
@@ -24,34 +24,42 @@ background_image: "" # Optional: Add a URL or local path to an image.
 # These are the main buttons that will appear on your page.
 # To add a new link, just copy the format.
 main_links:
-  - title: My Website
-    url: https://example.com
-  - title: Project Showcase
-    url: https://github.com/your-username
-  - title: Contact Me
-    url: mailto:email@example.com
+    - title: Explore My Portfolio
+      url: http://adityasrathore.com
+    - title: Book a 1:1 call
+      url: https://app.reclaim.ai/m/aditya-s-rathore
+    - title: View My Resume
+      url: https://drive.google.com/drive/folders/1S7-XrgFijp-Jpd7bezqt1QFVx8VNaWlQ?usp=drive_link
+    - title: Blog
+      url: https://adigeak.github.io/
 
 # -- Social Icons --
 # These icons will appear under your tagline.
-# Find more icon names at: https://fontawesome.com/v6/search?o=r&m=free&f=brands
+# Find more icon names at: https://fontawesome.com/v6/search?o=r&m=free
 social_links:
-  - icon: github
-    url: https://github.com/your-username
-  - icon: twitter
-    url: https://twitter.com/your-username
-  - icon: linkedin
-    url: https://linkedin.com/in/your-username
+  - icon_style: "brands"
+    icon_name: "youtube"
+    url: "https://www.youtube.com/@Aditya.S.Rathore"
+  - icon_style: "brands"
+    icon_name: "linkedin"
+    url: "https://www.linkedin.com/in/aditya-s-rathore/"
+  - icon_style: "brands"
+    icon_name: "x-twitter"
+    url: "https://x.com/adityasrathor3"
+  - icon_style: "solid"
+    icon_name: "globe"
+    url: "https://adityasrathore.com/"
 
 # -- Analytics --
 # To enable analytics, set the 'provider' and fill in your ID or token.
 analytics:
-  provider: false # Options: false, "google", "mixpanel", "both"
-  providers:
-    google:
-      tracking_id: "" # e.g., G-XXXXXXXXXX
-    mixpanel:
-      token: ""       # e.g., "YOUR_MIXPANEL_TOKEN"
+    provider: false # Options: false, "google", "mixpanel", "both"
+    providers:
+        google:
+            tracking_id: "" # e.g., G-XXXXXXXXXX
+        mixpanel:
+            token: "" # e.g., "YOUR_MIXPANEL_TOKEN"
 
 # Required for GitHub Pages. Do not change.
 plugins:
-  - jekyll-seo-tag
+    - jekyll-seo-tag
